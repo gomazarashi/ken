@@ -17,11 +17,12 @@ public:
     }
 };
 
-int main(){
+int main()
+{
     Neko dora("ボス");
     Neko tama("タマ");
-    cout<<"あなたの名付けた猫がメモリ上に生成されました。"<<endl;
-    cout<<"猫が鳴きます。"<<endl;
+    cout << "あなたの名付けた猫がメモリ上に生成されました。" << endl;
+    cout << "猫が鳴きます。" << endl;
 
     dora.naku();
     tama.naku();
