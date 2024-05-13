@@ -3,7 +3,6 @@
 using namespace std;
 class Neko
 {
-private:
     string name;
 
 public:
