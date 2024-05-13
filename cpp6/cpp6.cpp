@@ -9,7 +9,7 @@ private:
 public:
     Neko(string s) : name(s){};
 
-    void naku()
+    void naku() const
     {
         cout << "私の名前は" << name << "ですにゃ" << endl;
     }
