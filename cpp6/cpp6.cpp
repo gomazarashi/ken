@@ -6,13 +6,17 @@ class Neko
     string name;
 
 public:
-    Neko(string s) : name(s){};
+    Neko(string);
 
-    void naku() const
-    {
-        cout << "私の名前は" << name << "ですにゃ" << endl;
-    }
+    void naku() const;
 };
+
+Neko::Neko(string s) : name(s) {}
+
+void Neko::naku() const
+{
+    cout << "私の名前は" << name << "ですにゃ" << endl;
+}
 
 int main()
 {
