@@ -7,10 +7,8 @@ private:
     string name;
 
 public:
-    Neko(string s)
-    {
-        name = s;
-    }
+    Neko(string s) : name(s){};
+
     void naku()
     {
         cout << "私の名前は" << name << "ですにゃ" << endl;
